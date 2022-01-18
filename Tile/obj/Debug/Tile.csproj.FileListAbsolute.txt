@@ -1,0 +1,6 @@
+E:\Test\Tile\Tile\bin\Tile.dll.config
+E:\Test\Tile\Tile\bin\Tile.dll
+E:\Test\Tile\Tile\bin\Tile.pdb
+E:\Test\Tile\Tile\obj\Debug\Tile.csprojResolveAssemblyReference.cache
+E:\Test\Tile\Tile\obj\Debug\Tile.dll
+E:\Test\Tile\Tile\obj\Debug\Tile.pdb

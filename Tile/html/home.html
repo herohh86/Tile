@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Tile</title>
+    <link type="text/css" href="../css/tile.css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ui.core.js"></script>
+    <script type="text/javascript" src="../js/ui.widget.js"></script>
+    <script type="text/javascript" src="../js/ui.mouse.js"></script>
+    <script type="text/javascript" src="../js/ui.sortable.js"></script>
+    <script type="text/javascript" src="../js/Tile.js"></script>
+    <script>
+        $(document).ready(function () {
+            debugger;
+            var layoutInfo = {
+                hpLeft: {
+                    0: { id: "id1", name: "tile 11" },
+                    1: { id: "id2", name: "tile 12"}
+                },
+                hpMiddle: {
+                    0: { id: "id3", name: "tile 21" },
+                    1: { id: "id4", name: "tile 22" },
+                    2: { id: "id5", name: "tile 23" }
+                },
+                hpRight: {
+                    0: { id: "id6", name: "tile 31" },
+                    1: { id: "id7", name: "tile 32" },
+                    2: { id: "id8", name: "tile 33" }
+                }
+            };
+            var $tile = new Tile($("#tileContainer"));
+            $tile.init(layoutInfo);
+            $tile.toLayout("1:2:1");
+        });
+    </script>
+</head>
+<body>
+    <h3>磁贴Demo</h3>
+    <div id="tileContainer"></div>
+</body>
+</html>
